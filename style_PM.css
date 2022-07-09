@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #333;
+    color: ivory;
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align: center;
+}
+/* Section A */
+
+#section-a {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-column-gap:1em;
+    background: #eaeaea;
+    color: #333;
+    padding-bottom: 2em;
+}
+/* Section B */
+#section-b {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-around; 
+    background: lightblue ;
+    color: black;
+    padding: 1em 1em 1em 1em;
+}
+/* Section-B Images */
+.B-Wrap-Img {
+    background-image: url(Bkg_images/Bubble_Wrap.jpg);
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    position: relative;
+    border: 3px solid #555;
+    margin: 1.5px;
+}
+.P-Bubble-Img {
+    background-image: url(Bkg_images/Packaging_Bubble.jpg);
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    position: relative;
+    border: 3px solid #555;
+    margin: 1.5px;
+}
+.P-Paper-Img {
+    background-image: url(Bkg_images/Packaging_Paper.jpg);
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    position: relative;
+    border: 3px solid #555;
+    margin: 1.5px;
+}
+.Tape-Gun-Img {
+    background-image: url(Bkg_images/Tape_Gun.jpg);
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    position: relative;
+    border: 3px solid #555;
+    margin: 1.5px;
+}
+.D-Side-Img {
+    background-image: url(Bkg_images/Double_Sided_Paper_Tape.jpg);
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    position: relative;
+    border: 3px solid #555;
+    margin: 1.5px;
+}
+.D-Tape-Img {
+    background-image: url(Bkg_images/Duct_Tape.jpg);
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    position: relative;
+    border: 3px solid #555;
+    margin: 1.5px;
+}
+.Electrical-Tape-Img {
+    background-image: url(Bkg_images/Electrical_Tape.jpg);
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    position: relative;
+    border: 3px solid #555;
+    margin: 1.5px;
+}
+.M-Tape-Img {
+    background-image: url(Bkg_images/Masking_tape.jpg);
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    position: relative;
+    border: 3px solid #555;
+    margin: 1.5px;
+}
+.P-Tape-Img {
+    background-image: url(Bkg_images/Packaging_Tape.jpg);
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    position: relative;
+    border: 3px solid #555;
+    margin: 1.5px;
+  
+}
+
+.btn{
+    display: inline-block; 
+    /* background: #333; */
+    /* color: #010614; */
+    text-decoration: none;
+    padding: 10.4em  2.5em;
+    /* border: 1px solid #666; */
+    margin: 1.5em ;
+}

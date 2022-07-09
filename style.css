@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #333;
+    color: ivory;
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align: center;
+}
+/* Section A */
+
+#section-a {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-column-gap:1em;
+    background: #eaeaea;
+    color: #333;
+    padding-bottom: 2em;
+}
+/* Section B */
+
+#section-b {
+    display: flex;
+    justify-content: space-around; 
+    background: lightblue ;
+    color: whitesmoke;
+    padding: 1em 1em 1em 1em;
+}
+/* Section-B Images */
+.Boxes-Img {
+    background-image: url(Bkg_images/cardboard-boxes.jpg);
+    background-color: #cccccc;
+    height: 300px;
+    width: 1500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+    border: 3px solid #555;
+    margin: 1.5px;
+}
+.Bags-Img {
+    background-image: url(Bkg_images/Packaging-bags.jpg);
+    background-color: #cccccc;
+    height: 300px;
+    width: 1500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+    border: 3px solid #555;
+    margin: 1.2px;    
+}
+.PM-Img {
+    background-image: url(Bkg_images/PM.jpg);
+    background-color: #cccccc;
+    height: 300px;
+    width: 1500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+    border: 3px solid #555;   
+    margin: 1.5px;
+}
+h1 {
+    /* background-color: black; */
+    color: black;  
+}
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .2s ease;
+    background-color: #666;
+  }
+.Boxes-Img:hover .overlay {
+    opacity: 1;
+  }
+.Bags-Img:hover .overlay {
+    opacity: 1;
+  }
+.PM-Img:hover .overlay {
+    opacity: 1;
+  }     
+.btn {
+    display: inline-block; 
+    /* background: #333; */
+    color: #010614;
+    text-decoration: none;
+    padding: 0.5em  0.5em;
+    border: 1px solid #666;
+    margin: 1.5em ;
+}
+
+.btn:hover{
+    background: #eaeaea;
+    color: #333;
+}
