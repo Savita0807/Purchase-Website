@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #333;
+    color: ivory;
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align: center;
+}
+/* Section A */
+
+#section-a {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-column-gap:1em;
+    background: #eaeaea;
+    color: #333;
+    padding: 1em 1em 1em 1em;
+    text-align: left;
+}
+.Order_Form {
+    background-color : #f9fafb;
+    /* padding-left: 1em; */
+    padding: 1em 1em 1em 1em;
+    margin-right: 2vw;
+}
+/* .mb-3 {
+    padding-left: 1em;
+    padding-right: 1em;
+} */

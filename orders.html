@@ -4,9 +4,11 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
+        <!-- <link rel="stylesheet" href="style_order.css"> -->
         <title>Orders</title>
-       </head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet" href="style_order.css">
+    </head>
     <body>
         <!--Header-->
         <header id="title-Line" class="grid">
@@ -15,6 +17,58 @@
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure omnis deleniti ullam? Earum eum sapiente suscipit sit repellendus, sed sequi debitis eaque odio totam dolor ratione itaque quae ipsa et!  
                 </div> 
             </div>
-        </header> 
+        </header>
+         <!--Section A -->
+        <section id="section-a" >
+            <div class="Order_img">
+                <p> Bubble Wrap</p>
+            </div>
+            <div class="Order_Form">
+                <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label">Size:</label>
+                    <input disabled type="text" class="form-control" id="formGroupExampleInput" placeholder="" value="Standard">
+                  </div>
+                  <div class="mb-3">
+                    <label for="formGroupExampleInput2" class="form-label">Material:</label>
+                    <input disabled type="text" class="form-control" id="formGroupExampleInput2" placeholder="" value="White">
+                  </div>
+                  <div class="mb-3">
+                      <h5>Quantity:</h5>
+                    <select class="form-select" id="Quantity" aria-label="Default select example">
+                        <option selected>--Please select quantity--</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                      </select>
+                  </div>
+                  <div class="mb-3">
+                    <label for="formGroupExampleInput2" class="form-label">Unit Price:</label>
+                    <input disabled type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
+                  </div>
+                  <div class="mb-3">
+                    <label for="formGroupExampleInput2" class="form-label">Total:</label>
+                    <input disabled type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
+                  </div>
+                  <div class="mb-3">
+                    <!-- <button type="submit" class="btn btn-primary">Send Quote</button> -->
+                    <div class="d-grid gap-2 col-6 mx-auto">
+                        <button class="btn btn-primary" type="button">Send Quote</button>
+                        <!-- <button class="btn btn-primary" type="button">Button</button> -->
+                      </div>
+                  </div>
+            </div>
+
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+        <script src="static/js/order.js"></script>
+        <script src="https://d3js.org/d3.v5.min.js"></script>
     </body>   
 </html>
